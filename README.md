@@ -72,4 +72,4 @@ You may use any of the standard packages included in Node.js or any third-party 
 - https://devcenter.heroku.com/articles/config-vars 
 - https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/1e37a1a45fd828a9cb10)
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://www.postman.com/jamesreynolds9/workspace/csci-3916-james-reynolds/collection/32606808-15a7fc88-8734-4685-afb2-965899fcf231?action=share&creator=32606808&active-environment=32606808-2501c506-f832-4661-a37b-53c9ecc01149)

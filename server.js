@@ -97,17 +97,26 @@ router.route('/testcollection')
 
     router.route('/movies')
     .get((req, res) => {
+        
         const o = {
             status: 200,
             message: 'GET movies',
             headers: req.headers,
             query: req.query,
-            env: process.env.UNIQUE_KEY
+            key: process.env.UNIQUE_KEY
         };
         res.json(o);
     })
     .post((req, res) => {
         // Implementation here
+        const o = {
+            status: 200,
+            message: 'movie saved',
+            headers: req.headers,
+            query: req.query,
+            env: process.env.UNIQUE_KEY
+        };
+        res.json(o);
     })
     .put(authJwtController.isAuthenticated, (req, res) => {
         // HTTP PUT Method
